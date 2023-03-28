@@ -1,13 +1,20 @@
 # JupyterLite Demo
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+This is forked from jupyter lite for my own use.
+So I have removed things I don't want while keeping the organisation the same.
+
+I am adapting to my requirements.  My first attempt is to try out
+using colour for building colour checker demos.  This is mean to complement
+my blog at [the tartan dictionary](https://tartandictionary.org/posts/)
+
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://drummonds.github.io/jupyterlite)
 
 JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
 ## ✨ Try it in your browser ✨
 Trying it out
 
-➡️ **https://jupyterlite.github.io/demo**
+➡️ **https://drummonds.github.io/jupyterlite**
 
 ![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
 
