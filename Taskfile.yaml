@@ -1,0 +1,26 @@
+# https://taskfile.dev
+# requirments Taskfile and caddy
+
+version: '3'
+
+vars:
+  GREETING: Building jupyter lite
+
+tasks:
+  build:
+    cmds:
+      - echo "{{.GREETING}}"
+      - poetry run jupyter lite build --contents content --output-dir dist
+    silent: true
+
+
+  server:
+    dir: ~/major_projects/jupyterlite/dist/
+    cmds:
+      - caddy file-server --listen 127.0.0.1:2015
+
+  dia:
+    deps: [build,server]
+    cmds:
+      - echo "{{.GREETING}}"
+      
