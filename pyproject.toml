@@ -28,6 +28,7 @@ jupyterlite-xeus-lua = "0.3.1"
 jupyterlite-xeus-sqlite = "0.2.1"
 plotly = ">=5,<6"
 jupyterlab-night = "^0.4.6"
+voila = "^0.4.0"
 
 
 [build-system]
